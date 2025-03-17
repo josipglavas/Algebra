@@ -5,7 +5,7 @@ public class Main {
             int armstrongovBroj = 0;
             int zbrojZnamenki = 0;
             if(i > 0){
-                int znamenka = 0;
+                int znamenka;
                 int brojZnamenki = 1;
                 if(i > 10 && i < 100){
                     brojZnamenki = 2;
