@@ -23,7 +23,7 @@ public class Main {
                         if (ostatak > 0 && brojZnamenki == 1){
                             broj = ostatak;
                         }
-                        zbrojZnamenki += (int)Math.pow(znamenka, 3);
+                        zbrojZnamenki += (int)Math.pow(znamenka, brojZnamenki);
                     }
                 }
                 if(zbrojZnamenki == i){
